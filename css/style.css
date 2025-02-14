@@ -200,16 +200,16 @@
  }
 
  .btn-light:hover {
-     background-color: #E0E3E7;
+     background-color: #A3A8AE;
      /* Blanco Humo más oscuro */
-     border-color: #E0E3E7;
+     border-color: #A3A8AE;
  }
 
  .btn-light:focus,
  .btn-light:active {
-     background-color: #C7CED5;
+     background-color: #7E99D0;
      /* Blanco Humo intenso */
-     border-color: #C7CED5;
+     border-color: #7E99D0;
      box-shadow: 0 0 0 0.2rem rgba(244, 245, 247, 0.5);
  }
 
@@ -230,6 +230,9 @@
      z-index: 9999;
      /* Se asegurará de estar siempre visible */
  }
+/* body {
+    background-color: #cdd0db;
+} */
 
 
 

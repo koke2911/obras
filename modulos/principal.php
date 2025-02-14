@@ -49,13 +49,14 @@ if (empty($_SESSION)) {
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                     <button id="menu_usuarios" class="btn btn-light mx-2"><i class="fas fa-users me-2"></i> Usuarios</button>
-                    <a class="dropdown-item" href="#" id="menu_calculo"><i class="fas fa-calculator me-2"></i> Materiales</a>
-                    <a class="dropdown-item" href="#" id="menu_compra"><i class="fas fa-shopping-cart me-2"></i> Actividades</a>
+                    <a class="dropdown-item" href="#" id="menu_materiales"><i class="fas fa-calculator me-2"></i> Materiales</a>
+                    <!-- <a class="dropdown-item" href="#" id="menu_actividades"><i class="fas fa-shopping-cart me-2"></i> Actividades</a> -->
                 </div>
             </div>
 
 
-            <button id="menu_usuarios" class="btn btn-light mx-2"><i class="fas fa-building me-2"></i> Proyectos</button>
+            <button id="menu_proyectos" class="btn btn-light mx-2"><i class="fas fa-building me-2"></i> Proyectos</button>
+            <button id="menu_usuarios" class="btn btn-light mx-2"><i class="fas fa-building me-2"></i> Actividades</button>
             <button id="menu_ssrs" class="btn btn-light mx-2"><i class="fas fa-user-injured me-2"></i> Trabajadores</button>
             <button id="menu_seguimiento" class="btn btn-light mx-2"><i class="fas fa-chart-bar me-2"></i> Actividades</button>
             <button id="menu_cituacion" class="btn btn-light mx-2"><i class="fas fa-chalkboard-teacher me-2"></i> Cronograma</button>
@@ -78,7 +79,7 @@ if (empty($_SESSION)) {
 
         <!-- Contenido principal -->
         <main class="flex-grow-1 d-flex">
-            <iframe src="" id="principal" style="width: 100%;  border: none;"></iframe>
+            <iframe src="" id="principal" style="width: 80%;  border: none;"></iframe>
         </main>
     </div>
 

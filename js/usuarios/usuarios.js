@@ -362,9 +362,9 @@ $(document).ready(function () {
                 "render": function(data, type, row) {
                     let icono;
                     if (data == 1) {
-                        icono = "<button type='button' class='estado_usu btn btn-warning' title='Traza socio'><i class='fa fa-check-circle' style='color: #1e5388; ' title='Activo'></i></button>";
+                        icono = "<button type='button' class='estado_usu btn btn-warning' title='Traza socio'><i class='fa fa-check-circle' style='color: green; ' title='Activo'></i></button>";
                     } else {
-                        icono = "<button type='button' class='estado_usu btn btn-warning' title='Traza socio'><i class='fa fa-ban' style='color: #1e5388; ' title='Bloqueado'></i></button>";
+                        icono = "<button type='button' class='estado_usu btn btn-warning' title='Traza socio'><i class='fa fa-ban' style='color: red; ' title='Bloqueado'></i></button>";
                     }
                     return icono;
                 }
